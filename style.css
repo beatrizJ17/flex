@@ -1,0 +1,50 @@
+body{
+	background-color: beige;
+}
+
+.box {
+	height: 150px;
+	width: 150px;
+}
+
+.container {
+	display: flex;
+
+}
+ 
+ /*---------------------------------------------
+    TODAS LAS REGLAS A CONTINUACIÓN SON DE BOX
+  ---------------------------------------------*/
+.box-red {
+	background-color: #F82626;
+	font-family: 'Bad Script';
+	font-size: 22px;
+}
+
+.box-blue {
+	background-color: #204DE4;
+	font-family: 'Astloch';
+	font-size: 22px;
+	order: -1;
+}
+
+.box-orange {
+	background-color: #F37A00;
+	font-family: 'Asar';
+	font-size: 22px;
+	order: -2;
+}
+
+.box-yellow {
+	background-color: #F5D615;
+	font-family: 'Architects Daughter';
+	font-size: 22px;
+}
+
+ /*---------------------------------------------
+                     FIN
+  ---------------------------------------------*/
+
+  img{
+     width: 75%;
+  }
